@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+/*главный экран*/
+.first_ecran img {
+  width: 100%;
+  position: relative;
+}
+.first_ecran h1 {
+  font-size: 85px;
+  position: absolute;
+  top: 0;
+  margin-top: 220px;
+  margin-left: 200px;
+  color: #232721;
+  width: 400px;
+  line-height: 80px;
+}
+.first_ecran h3 {
+  font-size: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  margin-top: 410px;
+  margin-left: 200px;
+  color: #232721;
+}
+/*меню*/
+ul {
+  width: 100%;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+}
+/*ссылки в меню*/
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #f1d594;
+  padding: 10px;
+}
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 55px;
+  margin-top: 15px;
+}
+
+/*в меню обратная связь*/
+.btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn:hover {
+  background-color: beige;
+  color: #232721;
+  transition: all 0.5s ease;
+}
+.first_ecran p {
+  font-weight: 600;
+  font-size: 23px;
+  position: absolute;
+  top: 0;
+  margin-top: 640px;
+  margin-left: 620px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.first_ecran p:hover {
+  background-color: #f8de6c;
+  transition: all 0.5s ease;
+}
+
+/*второй экран*/
+.second_ecran {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.second_ecran h2 {
+  font-size: 45px;
+  text-align: left;
+  padding: 75px 151px 35px 60px;
+}
+.second_ecran p {
+  font-family: "Times New Roman", Times, serif;
+  width: 440px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 20px;
+}
+/*карточка с левой стороны*/
+.left {
+  position: absolute;
+  flex: 1 1 auto;
+  background: rgb(246, 252, 250);
+  background: linear-gradient(
+    0deg,
+    rgba(246, 252, 250, 0.9192051820728291) 58%,
+    rgba(247, 246, 241, 1) 100%
+  );
+  border: 1px solid rgb(218, 210, 210);
+  width: 610px;
+  height: 560px;
+  margin-left: 75px;
+  margin-top: 42px;
+  border-radius: 10px;
+}
+/*карточка по центру Уборка*/
+.center {
+  position: absolute;
+  flex: 1 1 auto;
+
+  margin-left: 700px;
+  margin-top: 45px;
+  width: 280px;
+  height: 265px;
+  border-radius: 10px;
+  border: 1px solid beige;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg,)
+    rgba(255, 255, 255, 0.7259278711484594) 0%,
+    rgba(200, 238, 225, 1) 100%;
+}
+.center h5 {
+  margin-top: 25px;
+  margin-left: 55px;
+
+  font-size: 45px;
+}
+.center p {
+  margin-top: -50px;
+  margin-left: 0px;
+}
+.center img {
+  width: 210px;
+  margin-top: -59px;
+  margin-left: 130px;
+}
+/*карточка с правой стороны*/
+.right {
+  position: absolute;
+  flex: 1 1 auto;
+  background-color: rgb(255, 255, 255);
+  background-color: linear-gradient(0deg,
+    rgba(255, 255, 255, 0.7259278711484594) 0%,
+    rgba(200, 238, 225, 1) 100%);
+
+  border: 1px solid rgb(218, 210, 210);
+  width: 280px;
+  height: 265px;
+  margin-left: 95px;
+  margin-top: 42px;
+  border-radius: 10px;
+}
